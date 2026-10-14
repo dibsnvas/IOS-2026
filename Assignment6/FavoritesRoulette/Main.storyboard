@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24127" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="NO" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FavoritesRoulette" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vw0-Rt-001">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="MOVIE ROULETTE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="1" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hdr-Lb-001">
+    <rect key="frame" x="24" y="70" width="345" height="36"/>
+    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+    <color key="textColor" red="0.902" green="0.204" blue="0.263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <nil key="highlightedColor"/>
+</label>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="My 10 favorite movies" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="1" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sub-Lb-001">
+    <rect key="frame" x="24" y="108" width="345" height="22"/>
+    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+    <color key="textColor" red="0.6" green="0.59" blue="0.64" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <nil key="highlightedColor"/>
+</label>
+<view contentMode="scaleToFill" id="crd-Vw-001" userLabel="Card">
+    <rect key="frame" x="24" y="146" width="345" height="486"/>
+    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+    <subviews>
+<imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="spongebobStill" id="img-Vw-001">
+    <rect key="frame" x="16" y="16" width="313" height="284"/>
+    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+</imageView>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Spin it to see niche taste in movies" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.7" adjustsFontSizeToFit="YES" id="ttl-Lb-001">
+    <rect key="frame" x="16" y="306" width="313" height="58"/>
+    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <nil key="highlightedColor"/>
+</label>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="10 movies I love. Tap the button and get a random one." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.7" adjustsFontSizeToFit="YES" id="dsc-Lb-001">
+    <rect key="frame" x="16" y="366" width="313" height="82"/>
+    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+    <color key="textColor" red="0.86" green="0.85" blue="0.88" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <nil key="highlightedColor"/>
+</label>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="10 favorites inside" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="1" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cnt-Lb-001">
+    <rect key="frame" x="16" y="452" width="313" height="20"/>
+    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+    <color key="textColor" red="0.6" green="0.59" blue="0.64" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <nil key="highlightedColor"/>
+</label>
+    </subviews>
+    <color key="backgroundColor" red="0.137" green="0.133" blue="0.161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="spn-Bt-001">
+    <rect key="frame" x="24" y="664" width="345" height="58"/>
+    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+    <color key="backgroundColor" red="0.902" green="0.204" blue="0.263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+    <state key="normal" title="Let's go">
+        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    </state>
+    <connections>
+        <action selector="spinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="act-Sp-001"/>
+    </connections>
+</button>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Never the same movie twice in a row" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="1" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hnt-Lb-001">
+    <rect key="frame" x="24" y="732" width="345" height="20"/>
+    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+    <color key="textColor" red="0.6" green="0.59" blue="0.64" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <nil key="highlightedColor"/>
+</label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sfA-Rt-001"/>
+                        <color key="backgroundColor" red="0.067" green="0.067" blue="0.086" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="hdr-Lb-001" id="out-Hl-001"/>
+                        <outlet property="cardView" destination="crd-Vw-001" id="out-Cv-001"/>
+                        <outlet property="imageView" destination="img-Vw-001" id="out-Iv-001"/>
+                        <outlet property="titleLabel" destination="ttl-Lb-001" id="out-Tl-001"/>
+                        <outlet property="descriptionLabel" destination="dsc-Lb-001" id="out-Dl-001"/>
+                        <outlet property="counterLabel" destination="cnt-Lb-001" id="out-Cl-001"/>
+                        <outlet property="spinButton" destination="spn-Bt-001" id="out-Sb-001"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="frR-Rt-001" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="spongebobStill" width="220" height="156"/>
+    </resources>
+</document>
