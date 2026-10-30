@@ -1,0 +1,8 @@
+xcuserdata/
+*.xcuserstate
+build/
+DerivedData/
+.DS_Store
+
+# Personal music: stays on this Mac only, never pushed
+MusicPlayer/MyMusic/

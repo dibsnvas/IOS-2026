@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "late_library_cover.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
