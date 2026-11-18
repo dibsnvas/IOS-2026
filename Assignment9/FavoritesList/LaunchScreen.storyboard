@@ -48,7 +48,7 @@
     <resources>
         <image name="launchLogo" width="400" height="400"/>
         <namedColor name="BrandColor">
-            <color red="0.059999999999999998" green="0.55000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.81999999999999995" green="0.17999999999999999" blue="0.26000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

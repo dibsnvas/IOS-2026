@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "borderland.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

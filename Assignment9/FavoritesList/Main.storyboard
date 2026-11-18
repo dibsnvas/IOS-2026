@@ -26,11 +26,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="japan" translatesAutoresizingMaskIntoConstraints="NO" id="ocJ-2i-sAj" userLabel="Flag Image">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="lighthouse" translatesAutoresizingMaskIntoConstraints="NO" id="ocJ-2i-sAj" userLabel="Poster Image">
                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="84" id="IhK-tJ-0Rl"/>
-                                                        <constraint firstAttribute="height" constant="56" id="gLK-Om-xgJ"/>
+                                                        <constraint firstAttribute="width" constant="60" id="IhK-tJ-0Rl"/>
+                                                        <constraint firstAttribute="height" constant="90" id="gLK-Om-xgJ"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -115,7 +115,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="flagImageView" destination="ocJ-2i-sAj" id="VvV-qE-1Sk"/>
+                                            <outlet property="posterImageView" destination="ocJ-2i-sAj" id="VvV-qE-1Sk"/>
                                             <outlet property="subtitleLabel" destination="xtp-Yl-SXp" id="SI6-bW-HtP"/>
                                             <outlet property="titleLabel" destination="TeK-dN-nFR" id="Hbn-88-Hxj"/>
                                             <outletCollection property="starImageViews" destination="CsM-eh-GAk" collectionClass="NSMutableArray" id="3fS-2q-Hx6"/>
@@ -151,7 +151,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="japan" width="900" height="600"/>
+        <image name="lighthouse" width="600" height="900"/>
         <image name="star.fill" catalog="system" width="32" height="32"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
