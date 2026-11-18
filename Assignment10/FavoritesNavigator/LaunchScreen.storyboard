@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VVE-qZ-e2q">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="pUW-no-VPD">
+            <objects>
+                <viewController id="VVE-qZ-e2q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4My-Wu-UFj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="T5G-OB-USZ" userLabel="Logo">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="0Zb-0R-LZ5"/>
+                                    <constraint firstAttribute="width" constant="120" id="Gi6-HW-GK1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="My Travel List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TR9-SP-ofb" userLabel="App Name">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="BrandColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sUN-Pj-c01"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TR9-SP-ofb" firstAttribute="centerX" secondItem="sUN-Pj-c01" secondAttribute="centerX" id="7G5-If-QHe"/>
+                            <constraint firstItem="T5G-OB-USZ" firstAttribute="centerY" secondItem="sUN-Pj-c01" secondAttribute="centerY" constant="-20" id="CJd-Ob-OIR"/>
+                            <constraint firstItem="T5G-OB-USZ" firstAttribute="centerX" secondItem="sUN-Pj-c01" secondAttribute="centerX" id="ciO-x9-gy1"/>
+                            <constraint firstItem="TR9-SP-ofb" firstAttribute="top" secondItem="T5G-OB-USZ" secondAttribute="bottom" constant="16" id="pFq-aD-ZeV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F2y-eE-6Rs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchLogo" width="400" height="400"/>
+        <namedColor name="BrandColor">
+            <color red="0.059999999999999998" green="0.55000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
